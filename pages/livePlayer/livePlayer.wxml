@@ -1,0 +1,7 @@
+<!--pages/livePlayer/livePlayer.wxml-->
+<text>livePlayer直播</text>
+
+<live-player src="https://domain/pull_stream"
+mode="RTC" autoplay></live-player>
+
+<live-player src="https://domain/pull_stream" mode="RTC" autoplay bindstatechange="statechange" binderror="error" style="width: 300px; height: 225px;" />

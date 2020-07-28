@@ -1,0 +1,84 @@
+<!--pages/basic/basic.wxml-->
+<view class="con con1">一： 基础内容-icon
+  <view>
+    icon: success
+    <icon type="success"></icon>
+  </view>
+  <view>
+    icon: success_no_circle
+    <icon type="success_no_circle"></icon>
+  </view>
+  <view>
+    icon: info
+    <icon type="info"></icon>
+  </view>
+  <view>
+    icon: warn
+    <icon type="warn"></icon>
+  </view>
+  <view>
+    icon: waiting
+    <icon type="waiting"></icon>
+  </view>
+  <view>
+    icon: cancel
+    <icon type="cancel"></icon>
+  </view>
+  <view>
+    icon: download
+    <icon type="download"></icon>
+  </view>
+  <view>
+    icon: search
+    <icon type="search"></icon>
+  </view>
+  <view>
+    icon: clear
+    <icon type="clear"></icon>
+    <view>
+      size:30 color：red
+      <icon type="clear" size="30" color="red"></icon>
+    </view>
+  </view>
+</view>
+
+<view class="con con2">二： progress进度条
+  <view>percent="20"
+    <progress percent="20"></progress>
+  </view>
+  <view>show-info="true"
+    <progress border-radius="10" percent="20" show-info="true" ></progress>
+  </view>
+  <view>font-size="50"
+    <progress percent="20" show-info="true" font-size="50"></progress>
+  </view>
+  <view>stroke-width="10"
+    <progress percent="20" show-info="true" stroke-width="10"></progress>
+  </view>
+  <view>activeColor="#ff0000"
+    <progress percent="20" show-info="true" activeColor="#ff0000"></progress>
+  </view>
+  <view>backgroundColor="#ccc"
+    <progress percent="20" show-info="true" backgroundColor="#ccc"></progress>
+  </view>
+  <view>active="true" duration="2000"
+    <progress percent="100" show-info="true" backgroundColor="#ccc" active="true" duration="2000"></progress>
+  </view>
+
+</view>
+
+<view class="con con3">三.text 文本
+  <view>
+    <text selectable="true">花儿与少年(可选)</text>
+    <text>海底     两万里</text>
+  </view>
+  <view>
+    <text space="emsp">中文字符  空格    的大小</text>
+  </view>
+  <view>
+    <text space="ensp">中文字符  空格    一半的大小</text>
+  </view>
+  <view>
+    <text space="nbsp">根据字体  设置的  空格大小</text>
+  </view>
+</view>

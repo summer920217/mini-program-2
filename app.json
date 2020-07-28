@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/map/map",
+    "pages/livePlayer/livePlayer",
+    "pages/video/video",
+    
+    "pages/image/image",
+    "pages/camera/camera",
+    "pages/audio/audio",
+    "pages/navigator/navigator",
+    "pages/textarea/textarea",
+    "pages/switch/switch",
+    "pages/slider/slider",
+    "pages/form/picker",
+    "pages/form/form",
+    "pages/index/index",
+    "pages/article/article",
+    "pages/view/view",
+    "pages/basic/basic"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor":"#e47070",
+
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "听风是风",
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"default",
+
+    "enablePullDownRefresh":false,
+    "onReachBottomDistance":10,
+
+    "pageOrientation":"portrait"
+
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"pages/imgs/index.png",
+        "selectedIconPath":"pages/imgs/index3.png"
+      },
+      {
+        "pagePath":"pages/article/article",
+        "text":"目录",
+        "iconPath":"pages/imgs/menu.png",
+        "selectedIconPath":"pages/imgs/menu3.png"
+      }
+    ],
+    "color":"#333",
+    "selectedColor":"#3d8bf0",
+    "backgroundColor":"#fff",
+    "borderStyle":"white",
+    "position":"bottom"
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "permission":{
+    "scope.userLocation":{
+      "desc":"你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}

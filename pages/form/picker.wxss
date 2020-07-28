@@ -1,0 +1,16 @@
+/* pages/form/picker.wxss */
+.picTitle{
+  background-color: pink;
+  margin-top: 20rpx;
+}
+
+.pickerView{
+  border:1px solid blue;
+  line-height: 40px;
+  height: 300px;
+}
+
+.current{
+  color: #ff0000;
+  font-weight: bold;
+}

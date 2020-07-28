@@ -1,0 +1,18 @@
+<!--pages/textarea/textarea.wxml-->
+<text>textarea 多行输入框</text>
+<view>1）placeholder-class
+  <textarea placeholder="用户简介..." placeholder-class="class2"></textarea>
+</view>
+
+<view>2）maxlength
+  <textarea placeholder="用户简介..." maxlength="15"></textarea>
+</view>
+
+<view>3）auto-focus
+  <textarea placeholder="用户简介..." auto-focus></textarea>
+</view>
+
+<view>4）bindconfirm 点击完成时
+  <textarea placeholder="用户简介..." bindconfirm="bindconfirm"></textarea>
+</view>
+

@@ -1,0 +1,10 @@
+<!--pages/audio/audio.wxml-->
+<view>audio音频</view>
+<view>
+  <audio src="{{src}}" poster="{{poster}}" name="{{name}}" author="{{author}}" controls id="myAudio"></audio>
+</view>
+<view>
+  <button type="primary" bindtap="audioPlay">播放</button>
+  <button type="primary" bindtap="audioPause">暂停</button>
+  
+</view>

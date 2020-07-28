@@ -1,0 +1,34 @@
+<!--pages/switch/switch.wxml-->
+<text>switch开关</text>
+<view>
+  <view>1）type=switch</view>
+  <switch></switch>
+</view>
+
+<view>
+  <view>2）type=checkbox</view>
+  <switch type="checkbox"></switch>
+</view>
+
+<view>
+  <view>3）checked</view>
+  <switch checked></switch>
+</view>
+
+<view>
+  <view>4）color</view>
+  <switch color="#ffff00" checked></switch>
+</view>
+
+<view>
+  <view>5）checked改变时</view>
+  <switch bindchange="switchchange"></switch>
+  <text wx:if="{{isOpen}}">开</text>
+  <text wx:else>关</text>
+</view>
+
+
+
+
+
+

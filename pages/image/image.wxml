@@ -1,0 +1,47 @@
+<!--pages/image/image.wxml-->
+<view>image图片</view>
+<view>一、缩放模式</view>
+<view>1）mode="scaleToFill"</view>
+<image src="../pics/shouhuanyingdenvhaichahua715.jpg" mode="scaleToFill"></image>
+
+<view>2）mode="aspectFit"</view>
+<image src="../pics/shouhuanyingdenvhaichahua715.jpg" mode="aspectFit"></image>
+
+<view>3）mode="aspectFill"</view>
+<image src="../pics/shouhuanyingdenvhaichahua715.jpg" mode="aspectFill"></image>
+
+<view>4）mode="widthFix"</view>
+<image src="../pics/shouhuanyingdenvhaichahua715.jpg" mode="widthFix"></image>
+
+<view>5）mode="heightFix"</view>
+<image src="../pics/shouhuanyingdenvhaichahua715.jpg" mode="heightFix"></image>
+
+<!--  -->
+<view>二、裁剪模式</view>
+<view>1）mode="top"</view>
+<image src="../pics/shouhuanyingdenvhaichahua715.jpg" mode="top"></image>
+
+<view>2）mode="center"</view>
+<image src="../pics/shouhuanyingdenvhaichahua715.jpg" mode="center"></image>
+
+<view>3）mode="bottom"</view>
+<image src="../pics/shouhuanyingdenvhaichahua715.jpg" mode="bottom"></image>
+<!--  -->
+<view>4）mode="left"</view>
+<image src="../pics/shouhuanyingdenvhaichahua715.jpg" mode="left"></image>
+
+<view>5）mode="right"</view>
+<image src="../pics/shouhuanyingdenvhaichahua715.jpg" mode="right"></image>
+<!--  -->
+<view>6）mode="top left"</view>
+<image src="../pics/shouhuanyingdenvhaichahua715.jpg" mode="top left"></image>
+
+<view>7）mode="top right"</view>
+<image src="../pics/shouhuanyingdenvhaichahua715.jpg" mode="top right"></image>
+
+<view>8）mode="bottom left"</view>
+<image src="../pics/shouhuanyingdenvhaichahua715.jpg" mode="bottom left"></image>
+
+<view>9）mode="bottom right"</view>
+<image src="../pics/shouhuanyingdenvhaichahua715.jpg" mode="bottom right"></image>
+

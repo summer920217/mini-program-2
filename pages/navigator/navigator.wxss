@@ -1,0 +1,12 @@
+/* pages/navigator/navigator.wxss */
+
+
+.nav navigator{
+  border:1px solid red;
+  float: left;
+  padding:10rpx 15rpx;
+}
+
+.active{
+  background:pink;
+}

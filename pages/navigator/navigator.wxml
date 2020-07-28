@@ -1,0 +1,15 @@
+<!--pages/navigator/navigator.wxml-->
+<text>navigator导航</text>
+<view>1） url="../form/form"</view>
+<navigator url="../form/form">表单form</navigator>
+
+<view>2） open-type="navigate" </view>
+<navigator url="../slider/slider" open-type="navigate">slider滑动条</navigator>
+
+<view>3） open-type="navigate" </view>
+<view class="nav">
+  <navigator url="../basic/basic" hover-class="active" hover-start-time="100">basic</navigator>
+  <navigator url="../switch/switch" hover-class="active" hover-stay-time="2000">switch</navigator>
+  <navigator url="../textarea/textarea" hover-class="active">textarea</navigator>
+</view>
+

@@ -1,0 +1,6 @@
+<!--pages/map/map.wxml-->
+<text>map地图</text>
+
+<map class="map1" ></map>
+
+

@@ -1,0 +1,7 @@
+<view class="buttons">
+  <text wx:for="{{buttons}}" bindtap="choose" id="{{item.id}}">
+    {{item.key}}
+  </text>
+</view>
+
+

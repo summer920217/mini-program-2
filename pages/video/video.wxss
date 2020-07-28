@@ -1,0 +1,28 @@
+/* pages/video/video.wxss */
+video{
+  width: 100%;
+}
+
+.danmu{
+  border:1px solid #ccc;
+  line-height: 60rpx;
+  padding:12rpx;
+  overflow: hidden;
+  margin:10rpx 0;
+}
+.danmu text{
+  padding:0 20rpx;
+  float: left;
+}
+.danmu input{
+  height: 60rpx;
+  float: left;
+}
+.danmu button{
+  float: right;
+}
+
+
+
+
+

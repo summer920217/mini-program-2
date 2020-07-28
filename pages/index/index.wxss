@@ -1,0 +1,65 @@
+/** wxss **/
+/** 修改button默认的点击态样式类**/
+page{
+  /* background-color: #ccc; */
+  margin-top: 10px;
+ 
+  /* background: 
+  url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1594885071850&di=5fff67a7916a3a540d3fc4b2364933a1&imgtype=0&src=http%3A%2F%2Fimg.51miz.com%2FElement%2F00%2F89%2F47%2F73%2Fca528d08_E894773_9e3bf3a1.jpg%2521%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue%2Fformat%2Fjpg) 
+  center center no-repeat ; */
+  background: 
+  url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1594887499234&di=128103a5d9304fb3cd0dffe2e19d374c&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Fback_pic%2F05%2F54%2F73%2F245b099e41ddb1b.jpg%2521r650%2Ffw%2F800) 
+  center center no-repeat ;
+
+  background-size:100%;
+}
+
+.userinfo{
+  width: 160rpx;
+  padding: 10rpx;
+  /* border:1px solid red; */
+  float: right;
+  text-align: center;
+  /* line-height: 60rpx; */
+  height: 250rpx;
+  /* padding-top: 50rpx; */
+  font-size: 26rpx;
+  color: #fff;
+}
+
+.userinfo .userBtn{
+  width: 80rpx;
+  height: 80rpx; 
+  box-sizing: content-box;
+  padding:12rpx;
+  line-height: 40rpx;
+  background:#fff;
+  box-shadow: 0 0 0 4rpx rgba(255,255,255,0.8);
+  background:rgba(255,255,255,0.6);
+  margin: auto;
+  color: #fff;
+  font-size:0.65rem;
+  border-radius: 50%;
+}
+
+
+.userinfo image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  box-shadow: 0 0 0 6rpx rgba(255,255,255,0.8);
+  margin-bottom: 10rpx;
+}
+.bottom{
+  clear: both;
+  height: 380rpx;
+  width: 40rpx;
+  margin:0 auto;
+  font-size: 42rpx;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: white; 
+  word-wrap: break-word;
+
+}

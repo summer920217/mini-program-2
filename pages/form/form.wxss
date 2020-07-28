@@ -1,0 +1,16 @@
+/* pages/form/form.wxss */
+
+.edit1{
+  border:1px solid red;
+  height: 100rpx;
+}
+
+.inputs input{
+  border:1rpx solid blue;
+  margin:4rpx;
+}
+
+view.section picker{
+  border:1rpx solid green;
+  margin:10rpx;
+}

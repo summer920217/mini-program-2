@@ -1,0 +1,58 @@
+<!--pages/slider/slider.wxml-->
+<text>slider滑块</text>
+<view>1）设置left/right/icon 
+  <view>
+  <slider min="0" max="100" value="5"></slider>
+  </view>
+</view>
+
+<view>2）设置step 
+  <view>
+  <slider min="0" max="100" value="5" step="5"></slider>
+  </view>
+</view>
+
+<view>3）设置color 红色
+  <view>
+  <slider min="0" max="100" value="5" color="#ff0000"></slider>
+  </view>
+</view>
+
+<view>4）设置selected-color 黄色
+  <view>
+  <slider min="0" max="100" value="10" selected-color="#ffff00"></slider>
+  </view>
+</view>
+
+<view>5）设置activeColor 紫色
+  <view>
+  <slider min="0" max="100" value="10" activeColor="#ff00ff"></slider>
+  </view>
+</view>
+
+<view>6）设置backgroundColor 蓝色
+  <view>
+  <slider min="0" max="100" value="10" backgroundColor="#0000ff"></slider>
+  </view>
+</view>
+
+<view>7）设置block-size
+  <view>
+  <slider min="0" max="100" value="10" block-size="5"></slider>
+  </view>
+</view>
+
+<view>8）设置block-color 
+  <view>
+  <slider min="0" max="100" value="10" block-size="5" block-color="#eee"></slider>
+  </view>
+</view>
+
+<view>9）设置show-value 
+  <view>
+  <slider min="0" max="100" value="10" block-size="5" block-color="#eee" show-value 
+  bindchanging="sliderchange"></slider>
+  </view>
+</view>
+
+

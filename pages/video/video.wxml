@@ -1,0 +1,29 @@
+<!--pages/video/video.wxml-->
+<view>video视频</view>
+<!-- 视频1 -->
+<view>视频1：Big Buck</view>
+<!-- <view>
+  <view>vslide-gesture=true 非全屏：开启亮度和音量调节</view>
+  <view>vslide-gesture-in-fullscreen=true 全屏：开启亮度和音量调节</view>
+</view> -->
+<video id="myVideo1" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" controls danmu-btn enable-danmu danmu-list="{{danmuList}}" autoplay vslide-gesture="false" vslide-gesture-in-fullscreen="false"></video>
+<!-- 发弹幕 -->
+<view class="danmu">
+  <text>弹幕</text>
+  <input type="text" placeholder="在此处输入弹幕" bindblur="bindInputBlur"></input>
+  <button type="primary" style="width:60px;padding:10rpx;" bindtap="bindSendDanmu1">发送</button>
+</view>
+
+
+
+<!-- 视频2 -->
+<view>视频2：腾讯视频</view>
+<video id="myVideo2" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+  binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls autoplay vslide-gesture="false" vslide-gesture-in-fullscreen="false" enable-play-gesture></video>
+<!-- 发弹幕 -->
+<view class="danmu">
+  <text>弹幕</text>
+  <input type="text" placeholder="在此处输入弹幕" bindblur="bindInputBlur2"></input>
+  <button type="primary" style="width:60px;padding:10rpx;" bindtap="bindSendDanmu2">发送</button>
+</view>
+

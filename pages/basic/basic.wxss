@@ -1,0 +1,27 @@
+/* pages/basic/basic.wxss */
+.con{
+  margin-bottom: 10px;
+}
+
+.con1{
+  border:1px solid red;
+}
+
+.con2{
+  border:1px solid blue;
+}
+.con2 view{
+  padding: 10rpx;
+  border-bottom: 1rpx dashed skyblue;
+}
+
+.con3{
+  border:1px solid green;
+}
+.con3>view{
+  padding:10rpx;
+  border-bottom: 1px dashed lightgreen;
+}
+
+
+

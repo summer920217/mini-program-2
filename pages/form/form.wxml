@@ -1,0 +1,166 @@
+<!--pages/form/form.wxml-->
+<view>一、button按钮</view>
+  <view>1）type属性
+    <button type="primary">type=primary</button>
+    <button type="default">type=default</button>
+    <button type="warn">type=warn</button>
+  </view>
+  <view>2）size属性
+    <button size="default">default</button>
+    <button size="mini">mini</button>
+  </view>
+  <view>3）form-type属性
+    <button form-type="submit">submit</button>
+    <button form-type="reset">reset</button>
+  </view>
+  <view>4）disabled='true'
+    <button disabled="true">禁用</button>
+  </view>
+  <view>5）loading='true'
+    <button loading="true">loading</button>
+  </view>
+  <view>6）open-type 微信开放能力
+    <button open-type="contact" bindcontact="contact">contact打开客服会话</button>
+    <button open-type="share">share转发</button>
+    <button open-type="getPhoneNumber">getPhoneNumber</button>
+    <button open-type="getUserInfo" bindgetuserinfo="getUserinfo">getUserInfo</button>
+    <button open-type="launchApp">launchApp</button>
+    <button open-type="openSetting">openSetting</button>
+    <button open-type="feedback">feedback</button>
+  </view>
+
+<view>二、checkbox</view>
+  <view>
+    <view><checkbox value="" checked></checkbox>checked选中</view>
+    <view><checkbox value="" ></checkbox>未选中</view>
+    <view><checkbox disabled></checkbox>disabled禁用</view>
+    <view><checkbox color="#ff0000"></checkbox>color红色</view>
+  </view>
+
+
+<view>三、checkbox-group</view>
+  <view>
+    <checkbox-group>
+      <checkbox value="0"></checkbox>体育
+      <checkbox value="1"></checkbox>音乐
+      <checkbox value="2"></checkbox>美术
+    </checkbox-group>
+  </view>
+
+
+<view>四、radio</view>
+  <view>
+    <view><radio value="" checked></radio>checked选中</view>
+    <view><radio value="" ></radio>未选中</view>
+    <view><radio disabled></radio>disabled禁用</view>
+    <view><radio color="#ff0000"></radio>color红色</view>
+  </view>
+
+<view>五、radio-group</view>
+  <view>
+    <radio-group>
+      <radio value="0"></radio>男
+      <radio value="1"></radio>女
+      <radio value="2"></radio>人妖
+    </radio-group>
+  </view>
+
+<view>六、editor</view> 
+<view>
+  <editor class="edit1" placeholder="个人资料"></editor>
+</view>
+<view>七、input</view>
+<view class="inputs">
+  <input placeholder="用户名"></input>
+  <input password placeholder="密码" placeholder-style="color:red"></input>
+  <input placeholder="禁用" disabled></input>
+  <input placeholder="最大长度为5" maxlength="5"></input>
+  <input placeholder="光标距离键盘" cursor-spacing="10"></input>
+  <input placeholder="自动获得焦点" focus></input>
+  
+  手机：<input type="number" placeholder="手机号"></input>
+  身份证：<input type="idcard" placeholder="身份证"></input>
+  小数：<input type="digit" placeholder="小数"></input>
+  confirm-type的值：键盘右下角按钮的文字
+  <input placeholder="send:发送" confirm-type="send"></input>
+  <input placeholder="search:搜索" confirm-type="search"></input>
+  <input placeholder="next:下一个" confirm-type="next"></input>
+  <input placeholder="go:前往" confirm-type="go"></input>
+  <input placeholder="done:完成" confirm-type="done"></input>
+</view>
+
+<view>八、label</view>
+<view>复选框 checkbox</view>
+<view class="container">
+  <checkbox-group >
+    <view wx:for="{{checkboxItems}}" wx:key="key">
+      <label>
+        <checkbox value="{{item.name}}"></checkbox> {{item.value}}
+      </label>
+    </view>
+  </checkbox-group>
+</view>
+
+
+<view>单选框 radio</view>
+<view class="container">
+  <radio-group >
+    <view wx:for="{{radioItems}}" wx:key="key">
+      <label>
+        <radio value="{{item.name}}"></radio> {{item.value}}
+      </label>
+    </view>
+  </radio-group>
+</view>
+
+<view>label内有多个时选中第一个</view>
+<view>
+  <label>
+    <view><radio value="1">选项一</radio></view>
+    <view><radio value="2">选项二</radio></view>
+    <view>点击文字选择选项</view>
+  </label>
+</view>
+
+
+<view>label for="控件id"</view>
+<view>
+  <label for="radio2">
+    <view><radio value="1">选项一</radio></view>
+    <view><radio value="2" id="radio2">选项二</radio></view>
+    <view>点击文字选择选项</view>
+  </label>
+</view>
+
+<view>九、picker选择器</view>
+
+<view class="section" >
+  <view>1） 普通选择器 mode="selector" </view>
+  <picker range="{{proArr}}" value="{{index}}" bindchange="bindChangePro">
+    <view>{{proArr[index]}}</view>
+  </picker>
+</view>
+
+<view class="section" >
+  <view>1-2） 普通选择器 mode="selector" 根据学号显示名字</view>
+  <picker range="{{stus}}" value="{{stuindex}}" bindchange="bindChangeStu" range-key="{{'id'}}">
+    <view>{{stus[stuindex].name}}</view>
+  </picker>
+</view>
+
+
+
+<view class="section">
+  <view>3）多列选择器 mode="multiSelector"</view>
+  <picker mode="selector" range="{{stus}}" value="{{stuindex}}" bindchange="bindChangePro" range-key="{{'sname'}}">
+    <view>{{stus[stuindex]}}</view>
+  </picker>
+</view>
+
+
+
+
+
+
+
+
